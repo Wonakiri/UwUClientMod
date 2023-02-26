@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+//test if github works | 26.2.2023
 public class UwUClientMod implements ModInitializer {
 	public static final String MOD_ID = "uwu-client-mod";
 	public static final Logger LOGGER = LoggerFactory.getLogger("uwu-client-mod");
