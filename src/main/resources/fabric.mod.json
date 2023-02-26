@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "uwu-client-mod",
+	"version": "${version}",
+	"name": "UwU Client",
+	"description": "Hacked UwU Client ^~^",
+	"authors": [
+		"Wonakiri, UwUGod"
+	],
+	"contact": {
+		"homepage": "No Homepage ^o^",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/uwu-client-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "wonakiri.uwuclientmod.UwUClientMod"
+		],
+		"client": [
+			"wonakiri.uwuclientmod.UwUModClient"
+		],
+		"fabric-datagen": [
+          "wonakiri.uwuclientmod.UwUClientModDataGenerator"
+		]
+	},
+	"mixins": [
+		"uwu-client-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
