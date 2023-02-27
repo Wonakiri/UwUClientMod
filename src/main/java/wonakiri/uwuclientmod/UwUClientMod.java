@@ -17,5 +17,6 @@ public class UwUClientMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello UwU world!");
+
 	}
 }
